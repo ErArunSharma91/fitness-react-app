@@ -8,7 +8,7 @@ import Form from "./Form";
 
 const App = () => {
   return (
-    <div style={{ width: "428px", height: "1379px", margin: "0" }}>
+    <div style={{ width: "100%", height: "100vh", margin: "0" }}>
       <Header />
       <SubHeader />
       <Scaner />

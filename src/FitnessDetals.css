@@ -1,0 +1,91 @@
+.cardContainer {
+  margin-top: 25px !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.card {
+  width: 178px !important;
+  height: 178px !important;
+  background-color: #2f2f2f !important;
+  border-radius: 45px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  position: relative !important;
+}
+
+.card img {
+  width: 150px !important;
+  height: 150px !important;
+  margin-left: 20px !important;
+  margin-top: -12px !important;
+}
+
+.cardContent {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  position: absolute !important;
+}
+
+.caloriesButton,
+.waterButton {
+  width: 193px !important;
+  height: 81px !important;
+  border-radius: 41px !important;
+  text-transform: capitalize !important;
+  font-size: 20px !important;
+  font-family: "DM Sans", sans-serif !important;
+  background-color: #fff4ef !important;
+  color: #2f2f2f !important;
+  font-weight: bold !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 20px !important;
+  margin-top: 15px !important;
+}
+
+.caloriesButton span,
+.waterButton span {
+  font-size: 13px !important;
+  color: #ff8250 !important;
+  margin-bottom: -42px !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+  .cardContainer {
+    margin-top: 15px !important; /* Adjusted margin for smaller screens */
+  }
+
+  .card {
+    width: 140px !important; /* Adjusted width for smaller screens */
+    height: 140px !important; /* Adjusted height for smaller screens */
+    border-radius: 35px !important; /* Adjusted border-radius for smaller screens */
+  }
+
+  .card img {
+    width: 120px !important; /* Adjusted width for smaller screens */
+    height: 120px !important; /* Adjusted height for smaller screens */
+    margin-left: 10px !important; /* Adjusted margin-left for smaller screens */
+    margin-top: -8px !important; /* Adjusted margin-top for smaller screens */
+  }
+
+  .caloriesButton,
+  .waterButton {
+    width: 160px !important; /* Adjusted width for smaller screens */
+    height: 60px !important; /* Adjusted height for smaller screens */
+    border-radius: 30px !important; /* Adjusted border-radius for smaller screens */
+    font-size: 13px !important; /* Adjusted font-size for smaller screens */
+    margin-left: 5px !important; /* Adjusted margin-left for smaller screens */
+    margin-top: 10px !important; /* Adjusted margin-top for smaller screens */
+  }
+  .caloriesButton span,
+  .waterButton span {
+    font-size: 12px !important;
+    color: #ff8250 !important;
+    margin-bottom: -25px !important;
+  }
+}

@@ -5,13 +5,14 @@
   align-items: center;
   margin-bottom: 20px;
   margin-top: 40px;
+  /* width: 428px; */
 }
 
 .title {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 30px;
-  margin-left: -100px;
+  margin-left: -53px;
 }
 
 .buttons {
@@ -20,14 +21,12 @@
 .lowercaseButton {
   text-transform: capitalize;
 }
-@media screen and (max-width: 768px) {
-  .buttons {
-    flex-direction: column;
+
+/* @media screen and (max-width: 320px) {
+  .button1 {
+    width: 150px;
   }
-  .title {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 30px;
-    margin-left: -60px;
+  .button2 {
+    width: 120px;
   }
-}
+} */

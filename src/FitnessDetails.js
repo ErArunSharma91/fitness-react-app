@@ -8,39 +8,18 @@ import {
 } from "@mui/material";
 import React from "react";
 import Group from "./Group.png";
+import "./FitnessDetals.css";
 
 export default function FitnessDetails() {
   return (
     <>
-      <Grid
-        style={{
-          marginTop: "30px",
-          display: "flex",
-          justifyContent: "center",
-        }}
-      >
+      <Grid className="cardContainer">
         <Grid item>
-          <Card
-            style={{
-              width: "178px",
-              height: "178px",
-              backgroundColor: "#2F2F2F",
-              borderRadius: "45px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              position: "relative",
-            }}
-          >
-            <div style={{ position: "absolute" }}>
+          <Card className="card">
+            <div className="cardContent">
               <CardMedia
                 component="img"
-                sx={{
-                  width: "150px",
-                  height: "150px",
-                  marginLeft: "20px",
-                  marginTop: "-12px",
-                }}
+                className="cardImage"
                 image={Group}
                 alt="Smart Watch"
               />
@@ -73,63 +52,15 @@ export default function FitnessDetails() {
         </Grid>
         <Grid item>
           <div style={{ marginLeft: "20px" }}>
-            <Button
-              style={{
-                width: "193px",
-                height: "81px",
-                borderRadius: "41px",
-                textTransform: "capitalize",
-                fontSize: "20px",
-                fontFamily: "DM Sans, sans-serif",
-                backgroundColor: "#FFF4EF",
-                color: "#2F2F2F",
-                fontWeight: "bold",
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <span
-                style={{
-                  fontSize: "13px",
-                  color: "#FF8250",
-                  marginBottom: "-42px",
-                }}
-              >
-                Calories
-              </span>
+            <Button className="caloriesButton">
+              <span>Calories</span>
               <br />
               1200 Kcal
             </Button>
           </div>
           <div style={{ marginLeft: "20px", marginTop: "15px" }}>
-            <Button
-              style={{
-                width: "193px",
-                height: "81px",
-                borderRadius: "41px",
-                textTransform: "capitalize",
-                fontSize: "20px",
-                fontFamily: "DM Sans, sans-serif",
-                backgroundColor: "#FFF4EF",
-                color: "#2F2F2F",
-                fontWeight: "bold",
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <span
-                style={{
-                  fontSize: "13px",
-                  color: "#FF8250",
-                  marginBottom: "-42px",
-                }}
-              >
-                Water
-              </span>
+            <Button className="waterButton">
+              <span>Water</span>
               <br />
               1.8 Ltrs
             </Button>

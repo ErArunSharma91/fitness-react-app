@@ -18,17 +18,18 @@ const SubHeader = () => {
         <Button
           variant="contained"
           color="primary"
+          // className="button1"
           // onClick={onConnectedDevicesClick}
           style={{
             backgroundColor: "#FF6020",
             borderRadius: "30px",
-            width: "251px",
+            width: "207px",
             height: "60px",
-            fontSize: "20px",
+            fontSize: "18px",
             fontWeight: "600",
             fontFamily: "DM Sans, sans-serif",
             textTransform: "capitalize",
-            marginRight: "15px",
+            marginRight: "10px",
           }}
         >
           Connected Devices
@@ -36,13 +37,14 @@ const SubHeader = () => {
         <Button
           variant="contained"
           color="primary"
+          // className="button2"
           // onClick={onStatisticsClick}
           style={{
             backgroundColor: "#F2F2F2",
             borderRadius: "30px",
-            width: "151px",
+            width: "121px",
             height: "60px",
-            fontSize: "20px",
+            fontSize: "18px",
             fontWeight: "600",
             fontFamily: "DM Sans, sans-serif",
             textTransform: "capitalize",
